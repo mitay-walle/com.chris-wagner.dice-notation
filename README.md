@@ -1,4 +1,4 @@
-# DiceNotation #
+# DiceNotation Unity3d port #
 **DiceNotation** is a simple parser / evaluator for a variant of "dice notation" similar to the version used in Dungeons and Dragons 3.5 that allows developers to support the use of dice notation in their own programs. It is written in C# and depends only on Portable Class Library functionality.
 
 In addition, **DiceNotation.MathNet** uses the awesome [MathNet.Numerics](http://numerics.mathdotnet.com) API to support pluggable random number generators; it too is PCL.

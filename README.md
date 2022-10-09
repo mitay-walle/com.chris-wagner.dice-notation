@@ -1,4 +1,4 @@
-# DiceNotation Unity3d port #
+# DiceNotation for Unity3d (UPM Package) #
 **DiceNotation** is a simple parser / evaluator for a variant of "dice notation" similar to the version used in Dungeons and Dragons 3.5 that allows developers to support the use of dice notation in their own programs. It is written in C# and depends only on Portable Class Library functionality.
 
 In addition, **DiceNotation.MathNet** uses the awesome [MathNet.Numerics](http://numerics.mathdotnet.com) API to support pluggable random number generators; it too is PCL.
@@ -7,6 +7,7 @@ This is a fork of [Chris Wagner](https://github.com/cawagner)'s [DiceNotation](h
 
 # Installation #
 I. Unity3d UPM-package - wip
+
 II. DiceNotation is available [on NuGet](https://www.nuget.org/packages/EdCanHack.DiceNotation/0.2.0). To install, run the following command in the Package Manager Console:
 
 ```

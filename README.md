@@ -6,7 +6,8 @@ In addition, **DiceNotation.MathNet** uses the awesome [MathNet.Numerics](http:/
 This is a fork of [Chris Wagner](https://github.com/cawagner)'s [DiceNotation](http://dicenotation.codeplex.com) library, maintained by [Ed Ropple](https://twitter.com/edropple).
 
 # Installation #
-DiceNotation is available [on NuGet](https://www.nuget.org/packages/EdCanHack.DiceNotation/0.2.0). To install, run the following command in the Package Manager Console:
+I. Unity3d UPM-package - wip
+II. DiceNotation is available [on NuGet](https://www.nuget.org/packages/EdCanHack.DiceNotation/0.2.0). To install, run the following command in the Package Manager Console:
 
 ```
 PM> Install-Package EdCanHack.DiceNotation

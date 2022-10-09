@@ -1,8 +1,8 @@
-﻿using System;
+﻿using UnityEngine;
 
 namespace DiceNotation.Exceptions
 {
-    public class InvalidChooseException : Exception
+    public class InvalidChooseException : UnityException
     {
         public InvalidChooseException(int choose, int multiplicity) : base(string.Format("Cannot choose {0} dice, only {1} were rolled", choose, multiplicity))
         { }

@@ -6,9 +6,12 @@ In addition, **DiceNotation.MathNet** uses the awesome [MathNet.Numerics](http:/
 This is a fork of [Chris Wagner](https://github.com/cawagner)'s [DiceNotation](http://dicenotation.codeplex.com) library, maintained by [Ed Ropple](https://twitter.com/edropple).
 
 # Installation #
-I. Unity3d UPM-package - wip
-
-II. DiceNotation is available [on NuGet](https://www.nuget.org/packages/EdCanHack.DiceNotation/0.2.0). To install, run the following command in the Package Manager Console:
+I. Unity3d UPM-package can be installed [from git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
+```
+PackageManager -> '+' button -> from git URL
+use text: https://github.com/mitay-walle/com.chris-wagner.dice-notation.git
+```
+II. original DiceNotation is available [on NuGet](https://www.nuget.org/packages/EdCanHack.DiceNotation/0.2.0). To install, run the following command in the Package Manager Console:
 
 ```
 PM> Install-Package EdCanHack.DiceNotation
@@ -41,8 +44,3 @@ var expression = new DiceExpression().Constant(5).Die(8).Dice(4, 6, choose: 3);
 | `4d6k3`    | Roll four six-sided dice, keep the three highest           |
 | `2*2d8`    | Roll two eight-sided dice and multiply the result by two   |
 | `5+d2`     | Roll a two-sided die (flip a coin) and add 5 to the result |
-
-# Future Work #
-- Results of dice rolls could be used as parameters to dice rolls (scalar, multiplicity, or choose).
-- The distributive property (`3 * (2 + d6)`) could be supported.
-- Better error handling on malformed expressions.

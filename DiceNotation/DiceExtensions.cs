@@ -5,7 +5,7 @@ namespace DiceNotation
 {
     public static class DiceExtensions
     {
-        private static readonly IDieRoller DieRoller = new StandardDieRoller(new Random());
+        private static readonly IDieRoller DieRoller = new UnityDieRoller();
 
         public static DiceResult Roll(this DiceExpression diceExpression)
         {
